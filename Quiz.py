@@ -31,13 +31,14 @@ if ans.lower() == 'd':
      Score+=5
 st.write ('---------------------------------------------------------------------')
 if Score == 25:
-  st.write("Congratulation !! you have scored__",Score, "1st position")
-  st.balloons()
-if Score == 15:
-  st.write("Congratulation !! you have scored__",Score,"2nd position")
-  st.snow()
-if Score  < 15:
-  st.write("Congratulation !! you have scored__",Score,"better Luck next time")
-  
+    st.write("Congratulation !! you have scored__",Score,"1st position")
+    st.balloons()
+
+elif Score == 15:
+    st.write("Congratulation !! you have scored__",Score,"2nd position")
+    st.snow()
+
+else:
+    st.write("Congratulation !! you have scored__",Score,"better Luck next time")
   
   
