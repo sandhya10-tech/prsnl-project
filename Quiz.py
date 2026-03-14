@@ -30,7 +30,7 @@ if st.button("Submit Quiz"):
 
     score = 0
 
-    if ans1.lower() == "a":
+    if ans1.lower() == "c":
         score += 5
     if ans2.lower() == "a":
         score += 5
