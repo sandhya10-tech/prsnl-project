@@ -1,7 +1,7 @@
 import streamlit as st
 st.write('Hello Students!')
 st.write
-Score= 0
+
 st.write("Welcome to quiz game....")
 st.write('Q1. What is the first alphabetb of english language?\nA)C B)T\n C)A  D)F')
 ans = st.text_input("Enter your choice....")
@@ -31,13 +31,12 @@ if ans.lower() == 'd':
      Score+=5
 st.write ('---------------------------------------------------------------------')
 if Score == 25:
+    Score= 0
     st.write("Congratulation !! you have scored__",Score,"1st position")
     st.balloons()
-
 elif Score == 15:
     st.write("Congratulation !! you have scored__",Score,"2nd position")
     st.snow()
-
 else:
     st.write("Congratulation !! you have scored__",Score,"better Luck next time")
   
