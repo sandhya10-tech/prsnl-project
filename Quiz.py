@@ -30,7 +30,7 @@ ans = st.text_input("Enter ur choice.....")
 if ans.lower() == 'd':
      Score+=5
 st.write ('---------------------------------------------------------------------')
-st.writebutton()
+if st.button("Submit Quiz"):
 if Score == 25:
     st.write("Congratulation !! you have scored__",Score,"1st position")
     st.balloons()
