@@ -7,7 +7,7 @@ st.write("Welcome to quiz game....")
 # Q1
 st.write("Q1. What is the first alphabetb of english language?\nA)C B)T\n C)A  D)F")
     
-ans1 = st.text_input("Enter answer for_")
+ans = st.text_input("Enter answer for_")
 
 # Q2
 st.write("Q2 What is the National Bird?\n A)Peacock  B)Crow\n  C)pegion  D)Duck")
