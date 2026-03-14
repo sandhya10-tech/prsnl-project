@@ -7,7 +7,7 @@ st.write("Welcome to quiz game....")
 # Q1
 st.write("'Q1. What is the first alphabetb of english language?\nA)C B)T\n C)A  D)F'")
     
-ans1 = st.text_input("Enter answer for_)
+ans1 = st.text_input("Enter answer for_")
 
 # Q2
 st.write(" What is the National Bird?\n A)Peacock  B)Crow\n  C)pegion  D)Duck'")
@@ -15,15 +15,15 @@ ans2 = st.text_input("Enter answer for_")
 
 # Q3
 st.write("Q3. what is the national Animal?\n A) tiger B) lion  C) Elephant D) bear")
-ans3 = st.text_input("Enter answer for_)
+ans3 = st.text_input("Enter answer for_")
 
 # Q4
 st.write("Q4. what is middle alphabet in CAT?\n A) T   B) C   C)W    D)A")
-ans4 = st.text_input("Enter answer for_)
+ans4 = st.text_input("Enter answer for_")
 
 # Q5
 st.write("Q5.What is the national vegetable?\n A)tomato B) onion  C) peas  D) brinjal")
-ans5 = st.text_input("Enter answer for_)
+ans5 = st.text_input("Enter answer for_")
 
 # Submit button
 if st.button("Submit Quiz"):
