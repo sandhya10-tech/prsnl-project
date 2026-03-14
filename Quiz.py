@@ -10,7 +10,7 @@ st.write("Q1. What is the first alphabetb of english language?\nA)C B)T\n C)A  D
 ans1 = st.text_input("Enter answer for_")
 
 # Q2
-st.write(" What is the National Bird?\n A)Peacock  B)Crow\n  C)pegion  D)Duck")
+st.write("Q2 What is the National Bird?\n A)Peacock  B)Crow\n  C)pegion  D)Duck")
 ans2 = st.text_input("Enter answer for_")
 
 # Q3
